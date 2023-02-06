@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/Project3/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #000000;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 25px 80px;
+    justify-content: space-between;
+}
+nav ul{
+    position: absolute;
+    left: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 70px;
+    
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+}
+.buy-btn-container button{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #bd22df;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: -1055px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+    text-align: center;
+
+}
+main div h1{
+    font-size: 80px;
+    color: white;
+    font-weight: 900;
+}
+main div p{
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+.request-access-btn{
+    background-color: #bd22df;
+    color: white;
+    font-size: 25px;
+    padding: 15px 20px;
+    font-weight: 700;
+    margin-top: 70px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
